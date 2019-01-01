@@ -14,7 +14,7 @@ else
     $ip_address = $_SERVER['REMOTE_ADDR'];
   }
 
-$api_url = 'https://stat.ripe.net/data/maxmind-geo-lite/data.json?resource='.$ip_address;
+$api_url = 'https://PRIVATE_OR_PUBLIC_DATABASE/data.json?resource='.$ip_address;
 $api_content = file_get_contents($api_url);
 $api_data = json_decode($api_content,true);
 
