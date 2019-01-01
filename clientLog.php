@@ -34,7 +34,7 @@ $ip_httpx = $_SERVER['HTTP_X_FORWARDED_FOR'];
 $ip_remoteaddress = $_SERVER['REMOTE_ADDR'];
 
 $file = fopen("/volume1/LOG/connexion.log","a");
-// Do not forget to allocate write and read access to this file/directory
+// Do not forget to allocate php,  write and read access to this file/directory
 // fwrite($file, "$visitedUrl ");
 
 fwrite($file, str_pad($visitedUrl,9," ",STR_PAD_RIGHT));
