@@ -2,7 +2,7 @@
 
 include 'clientLog.php';
 clientLog("index");
-include 'accueil.php';
+include 'html.php';
 
 //cleaning operation session
 //include 'destroy.php';
