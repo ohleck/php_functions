@@ -6,8 +6,14 @@
     <style>
 
     </style>
+    
+    </style>
+<script src="/js/map.js" type="text/javascript"></script>
+<script>
+	var longitude = "<?php echo $ip_longitude; ?>";
+    var latitude = "<?php echo $ip_latitude; ?>";
+</script>
 </head>
 <body>
-
 </body>
 </html>
